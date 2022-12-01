@@ -16,7 +16,7 @@
 ### Link para visualização
 - <https://spotify-page-zeta.vercel.app/>
 
-### Git Clone
+### Como instalar
 <p>
   Para fazer o git clone basta seguir o passo a passo abaixo
 </p>
