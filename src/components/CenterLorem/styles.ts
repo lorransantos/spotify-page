@@ -11,4 +11,9 @@ export const Container = styled.section`
   h3 {
     color: #7f00ff;
   }
+  @media (max-width: 1000px) {
+    width: 100%;
+    max-width: 100%;
+    padding-top: 40px;
+  }
 `;

@@ -1,7 +1,4 @@
-import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import testeDeImagem from '../../images/1.jpeg';
-import testeDeImagem2 from '../../images/2.jpeg';
 import * as S from './styles';
 
 const CarouselComponent = () => {
@@ -9,18 +6,7 @@ const CarouselComponent = () => {
     <S.Container>
       <Carousel>
         <Carousel.Item>
-          <section
-            style={{
-              backgroundColor: '#00000000',
-              width: '60vw',
-              height: '10em',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              maxWidth: '500px',
-              padding: '0px',
-            }}
-          >
+          <section className='cardSlide'>
             <Carousel.Caption>
               <S.TitleCarousel>Música para todos</S.TitleCarousel>
               <S.ButtonContainer>
@@ -31,18 +17,7 @@ const CarouselComponent = () => {
           </section>
         </Carousel.Item>
         <Carousel.Item>
-          <section className='teste'
-            // style={{
-            //   backgroundColor: '#00000000',
-            //   width: '500px',
-            //   height: '10em',
-            //   display: 'flex',
-            //   justifyContent: 'center',
-            //   alignItems: 'center',
-            //   maxWidth: '500px',
-            //   padding: '0px',
-            // }}
-          >
+          <section className='cardSlide'>
             <Carousel.Caption>
               <S.TitleCarousel>As melhores radios</S.TitleCarousel>
               <S.ButtonContainer>

@@ -11,4 +11,13 @@ export const Container = styled.section`
     width: 100%;
     max-width: 230px;
   }
+  @media (max-width: 1000px) {
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    padding-top: 25px;
+    img {
+      width: 35%;
+    }
+  }
 `;

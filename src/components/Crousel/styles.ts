@@ -5,27 +5,23 @@ export const Container = styled.div`
     display: none;
   }
   .carousel-inner {
-    width: 60vw;
+    width: 90vw;
     max-width: 700px;
   }
-  .teste {
-    background-color: '#00000000';
+  .cardSlide {
+    background-color: #00000000;
     width: 500px;
     height: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
     max-width: 500px;
-    @media (max-width: 1150px) {
-      font-size: 16px;
-    }
   }
 `;
 
 export const TitleCarousel = styled.h3`
   font-size: 2.5rem;
   text-transform: uppercase;
-  font-weight: bold;
   @media (max-width: 1150px) {
     font-size: 24px;
   }
@@ -36,11 +32,6 @@ export const ButtonContainer = styled.div`
   gap: 16px;
   justify-content: center;
   margin-top: 16px;
-  /* @media (max-width: 1150px) {
-    button {
-      font-size: 20px;
-    }
-  } */
   #btn-colorful {
     border: 1px solid #00000000;
     background-color: #7006d1;
@@ -48,6 +39,9 @@ export const ButtonContainer = styled.div`
   }
   #btn-colorless {
     border: 1px solid #ffffff;
+  }
+  @media (max-width: 1000px) {
+    gap: 4px;
   }
 `;
 
@@ -64,17 +58,11 @@ export const Button = styled.button`
     font-size: 12px;
     padding: 4px 4px;
   }
-`;
-
-export const Card = styled.div`
-  background-color: '#00000000';
-  width: '500px';
-  height: '15em';
-  display: 'flex';
-  justify-content: 'center';
-  align-items: 'center';
-  max-width: '500px';
-  @media (max-width: 1500px) {
-    height: 1000px;
+  @media (max-width: 1000px) {
+    font-size: 1em;
+    padding: 0px 4px;
+  }
+  @media (max-width: 720px) {
+    font-size: 0.6em;
   }
 `;

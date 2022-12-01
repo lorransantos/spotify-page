@@ -1,24 +1,36 @@
 import React from 'react';
-import logo from '../../images/favicon.png';
 import * as S from './styles';
-import teste from '../../images/spotify.svg';
+import logo from '../../images/spotify.svg';
+import { TfiMenu } from 'react-icons/tfi';
 
 const Header = () => {
+  const [sidebar, setSidebar] = React.useState<boolean | null>(null);
+
   return (
     <S.Container>
       <S.Button>
         <img
-          src={teste}
+          src={logo}
           alt={'Logo da Spotify'}
         />
-        {/* <h1>Spotify</h1>&#174; */}
       </S.Button>
 
-      <S.NavList>
+      <S.Sidebar>
+        <button onClick={() => setSidebar(!sidebar)}>
+          <TfiMenu
+            size='32px'
+            color='#ffffff'
+          />
+        </button>
+      </S.Sidebar>
+
+      <S.NavList sidebar={sidebar}>
         <ul>
           <li>Premium</li>
           <li>Ajuda</li>
-          <li>Baixar</li>|<li>Entrar</li>
+          <li>Baixar</li>
+          <span>|</span>
+          <li>Entrar</li>
         </ul>
       </S.NavList>
     </S.Container>
@@ -26,3 +38,7 @@ const Header = () => {
 };
 
 export default Header;
+
+export interface OpenSidebar {
+  sidebar: boolean | null;
+}

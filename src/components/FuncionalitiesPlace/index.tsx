@@ -14,7 +14,7 @@ const FuncionalitiesPlace = () => {
           <p className='textColor'>É só procurar e apertar o play</p>
           <h3 className='subtitleColor'>Navegar</h3>
           <p className='textColor'>
-            Veja os novos lançamentos, o que está nombando nas paradas e as
+            Veja os novos lançamentos, o que está bombando nas paradas e as
             melhores playlists para o seu momento.
           </p>
           <h3 className='subtitleColor'>Descobrir</h3>

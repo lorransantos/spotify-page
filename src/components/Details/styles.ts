@@ -21,6 +21,7 @@ export const ImageContainer = styled.section`
   gap: 25px;
   @media (max-width: 1000px) {
     width: 100%;
+    max-width: 100%;
   }
 `;
 
@@ -32,7 +33,7 @@ export const Button = styled.button`
     width: 100%;
   }
   @media (max-width: 1000px) {
-    width: 45%;
+    width: 35%;
     display: flex;
   }
 `;
