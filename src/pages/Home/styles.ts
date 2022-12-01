@@ -1,8 +1,6 @@
 import styled from 'styled-components';
 import capa from '../../images/capa.png';
 
-// roxo 1 = #8a2be2
-
 export const Container = styled.section`
   height: 60vh;
   background-color: darksalmon;

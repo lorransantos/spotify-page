@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Footer = styled.footer`
-  /* display: flex; */
   background-color: #1f1f1f;
   width: 100%;
   color: #ffffff;
@@ -74,8 +73,4 @@ export const ImagesList = styled.ul`
   li {
     cursor: pointer;
   }
-  /* @media (max-width: 1000px) {
-    padding-bottom: 16px;
-    grid-column: 1/-1;
-  } */
 `;

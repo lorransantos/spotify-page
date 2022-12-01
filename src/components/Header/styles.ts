@@ -5,7 +5,6 @@ export const Container = styled.header`
   display: flex;
   justify-content: space-around;
   align-items: center;
-  /* padding: 16px 0; */
   color: #ffffff;
   background-color: #0000004f;
   position: absolute;
@@ -46,7 +45,6 @@ export const NavList = styled.nav`
     span {
       display: none;
     }
-    /* === null */
     display: ${(props: OpenSidebar) => (props.sidebar ? 'flex' : 'none')};
     padding: 5% 15% 5% 12px;
     position: absolute;
