@@ -1,16 +1,14 @@
 import styled from 'styled-components';
-import backgroundImage from '../../images/capa.png';
+import capa from '../../images/capa.png';
 
 // roxo 1 = #8a2be2
 
-export const Container = styled.div`
+export const Container = styled.section`
   height: 60vh;
   background-color: darksalmon;
-  background-image: url(${backgroundImage}),
-    linear-gradient(45deg, #ee82ee 40%, #7f00ff 100%);
+  background-image: url(${capa}),
+    linear-gradient(45deg, #ee82ee 40%, #7f00ff 115%);
   display: flex;
   align-items: center;
   justify-content: center;
 `;
-
-

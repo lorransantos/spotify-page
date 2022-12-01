@@ -3,11 +3,12 @@ import styled from 'styled-components';
 export const Container = styled.header`
   display: flex;
   justify-content: space-around;
-  padding: 24px 0;
+  padding: 16px 0;
   color: #ffffff;
   background-color: #0000004f;
-  position: fixed;
+  position: absolute;
   top: 0;
+  z-index: 1;
   width: 100%;
 `;
 
@@ -34,5 +35,8 @@ export const NavList = styled.nav`
     font-weight: bold;
     margin: 0;
     padding: 0;
+  }
+  li {
+    cursor: pointer;
   }
 `;

@@ -31,17 +31,17 @@ const CarouselComponent = () => {
           </section>
         </Carousel.Item>
         <Carousel.Item>
-          <section
-            style={{
-              backgroundColor: '#00000000',
-              width: '500px',
-              height: '10em',
-              display: 'flex',
-              justifyContent: 'center',
-              alignItems: 'center',
-              maxWidth: '500px',
-              padding: '0px',
-            }}
+          <section className='teste'
+            // style={{
+            //   backgroundColor: '#00000000',
+            //   width: '500px',
+            //   height: '10em',
+            //   display: 'flex',
+            //   justifyContent: 'center',
+            //   alignItems: 'center',
+            //   maxWidth: '500px',
+            //   padding: '0px',
+            // }}
           >
             <Carousel.Caption>
               <S.TitleCarousel>As melhores radios</S.TitleCarousel>
